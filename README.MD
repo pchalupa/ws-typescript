@@ -5,11 +5,12 @@ TypeScript becoming main language for creatign production grade apps.
 
 ## Plan
 
-0. CLI
-1. Overwiev
+1. TypeScript What is it, liks
+1. CLI
+1. tsconfig
+1. Basics
     1. Variables
     2. Arrays
     3. Functions
     4. Classes
-    5. Enums
-2. Components (React)
+1. Components (React)
