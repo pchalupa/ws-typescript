@@ -1,22 +1,20 @@
 {
-  "name": "ts-workshop",
-  "version": "1.0.0",
-  "description": "This workshop should help you with understanding of strongly typed code. THe main focus will be on TypeScript. TypeScript becoming main language for creatign production grade apps.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^16.4.13",
-    "@types/react": "^17.0.16",
-    "ts-node": "^10.1.0",
-    "typescript": "^4.3.5"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+	"name": "typescript-basics",
+	"version": "1.0.0",
+	"description": "This workshop should help you with understanding of strongly typed code. THe main focus will be on TypeScript. TypeScript becoming main language for creatign production grade apps.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^17.0.16",
+		"typescript": "^4.3.5"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
 }
