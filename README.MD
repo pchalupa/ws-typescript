@@ -2,9 +2,6 @@
 
 # TypeScript workshop
 
-This workshop should help you with understanding of strongly typed code. THe main focus will be on TypeScript.
-TypeScript becoming main language for creatign production grade apps.
-
 ## Plan
 
 1. Introduction
