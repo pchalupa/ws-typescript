@@ -1,5 +1,5 @@
 //* Strings
-let variable: string;
+let variable: string; // number, boolean, ...
 // let variable = 'bar'
 
 variable = 'foo';
@@ -18,11 +18,12 @@ array.push(1);
 const item = array.pop();
 
 //* Objects
-let object: { name: string; age: number };
+let object: { name: string; age?: number };
 
 object = { name: 'foo', age: 20 };
+object = { name: 'bar' };
 object.name = 'test';
 object.age = 25;
 
-// object = { name: 'bar' };
+// object = { age: 'bar' };
 // object.age = 'foo';
