@@ -5,6 +5,8 @@ interface Car<Type> {
 
 const x: Car<string> = { name: 'foo', type: 'fast' };
 
+type errorCallback<ErrorType> = (error: ErrorType) => void;
+
 async function fetchData<DataType>(url: string) {
 	try {
 		const response = await fetch(url);
