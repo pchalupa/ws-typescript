@@ -2,6 +2,8 @@
 
 See: https://www.staging-typescript.org/tsconfig
 
+It describes how to TS compiler should behave.
+
 ## Example
 
 ```
