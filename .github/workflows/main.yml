@@ -1,10 +1,12 @@
 on: [push]
 jobs:
     Static analysis:
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
             - run: npx tsc --noEmit
     Spellcheck:
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
             - uses: reviewdog/action-misspell@v1
