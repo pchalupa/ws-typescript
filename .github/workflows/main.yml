@@ -8,5 +8,5 @@ jobs:
         steps:
             - uses: actions/checkout@v2
             - uses: reviewdog/action-misspell@v1
-                with:
+              with:
                   github_token: ${{ secrets.github_token }}
