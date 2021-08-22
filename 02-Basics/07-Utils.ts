@@ -12,9 +12,3 @@ interface User {
 const title: Pick<User, 'name'> = { name: 'foo' };
 
 const age: Omit<User, 'name'> = { age: 1 };
-
-function getUser(id: string) {
-	return {
-		name: 'Foo',
-	};
-}
