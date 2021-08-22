@@ -1,12 +1,12 @@
 on: [push]
 jobs:
     Static analysis:
-        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Static analysis
-                run: npx tsc --noEmit
-            - name: Spellcheck
-                uses: reviewdog/action-misspell@v1
+            - run: npx tsc --noEmit
+    Spellcheck:
+        steps:
+            - uses: actions/checkout@v2
+            - uses: reviewdog/action-misspell@v1
                 with:
                   github_token: ${{ secrets.github_token }}
