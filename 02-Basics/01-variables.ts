@@ -1,3 +1,5 @@
+//* See: https://www.typescriptlang.org/docs/handbook/basic-types.html
+
 //* Strings
 let variable: string; // number, boolean, ...
 // let variable = 'bar'
