@@ -1,9 +1,9 @@
-type GameType = 'RPG' | 'FPS';
-
 interface User {
 	name: string;
 	age: number;
 }
+
+type GameType = 'RPG' | 'FPS';
 
 interface Game {
 	name: string;
@@ -12,14 +12,4 @@ interface Game {
 
 interface Player extends User {
 	games: Game[];
-}
-
-class Judge implements User {
-	name: string;
-	age: number;
-
-	constructor(name: string, age: number) {
-		this.name = name;
-		this.age = age;
-	}
 }
