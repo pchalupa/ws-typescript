@@ -1,8 +1,6 @@
-# ⚠️ Work in progress
-
 # TypeScript workshop
 
-## Plan
+## Structure
 
 1. Introduction
     1. CLI
